@@ -227,6 +227,7 @@ type PayloadRepo struct {
 	Id          int64          `json:"id"`
 	Name        string         `json:"name"`
 	Url         string         `json:"url"`
+	GitUrl      string         `json:"git_url"`
 	Description string         `json:"description"`
 	Website     string         `json:"website"`
 	Watchers    int            `json:"watchers"`

@@ -428,6 +428,9 @@ func CommitRepoAction(userId, repoUserId int64, userName, actEmail string,
 		default:
 			payload = p
 			p.Secret = w.Secret
+			p.Repo.GitUrl = GetGloneUrl(repo)
+			repo.CloneLink().SSH
+			p.Repo.GitUrl = repo.CloneLink().SSH
 		}
 
 		if err = CreateHookTask(&HookTask{
@@ -445,6 +448,15 @@ func CommitRepoAction(userId, repoUserId int64, userName, actEmail string,
 	}
 
 	return nil
+}
+
+func GetCloneUrl(repo Repository) string {
+	link, err := repo.CloneLink()
+	if err != nil {
+		return nil
+	} else {
+		return link.SSH
+	}
 }
 
 func newRepoAction(e Engine, u *User, repo *Repository) (err error) {
