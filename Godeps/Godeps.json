@@ -1,0 +1,133 @@
+{
+	"ImportPath": "github.com/gogits/gogs",
+	"GoVersion": "go1.4.2",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Unknwon/cae",
+			"Rev": "2e70a1351ba7842f0b4e58ef2f87302061ab2ced"
+		},
+		{
+			"ImportPath": "github.com/Unknwon/com",
+			"Rev": "188d690b1aea28bf00ba76983aa285b1d322e3dd"
+		},
+		{
+			"ImportPath": "github.com/Unknwon/i18n",
+			"Rev": "7457d88830b0522fcb414b7dae71c2d4811fdec3"
+		},
+		{
+			"ImportPath": "github.com/Unknwon/macaron",
+			"Rev": "93de4f3fad97bf246b838f828e2348f46f21f20a"
+		},
+		{
+			"ImportPath": "github.com/Unknwon/paginater",
+			"Rev": "cab2d086fa0b0a1b27f1131dcbed645c55dad78e"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/cli",
+			"Comment": "1.2.0-107-g942282e",
+			"Rev": "942282e931e8286aa802a30b01fa7e16befb50f3"
+		},
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.2-97-g0cc29e9",
+			"Rev": "0cc29e9fe8e25c2c58cf47bcab566e029bbaa88b"
+		},
+		{
+			"ImportPath": "github.com/go-xorm/core",
+			"Rev": "bacc62db6eb774727b3546dde7020c0bbff0f1ca"
+		},
+		{
+			"ImportPath": "github.com/go-xorm/xorm",
+			"Comment": "v0.4.3-20-gffa0712",
+			"Rev": "ffa0712280455c6897af2b0cdba3f5da90a486b0"
+		},
+		{
+			"ImportPath": "github.com/gogits/chardet",
+			"Rev": "2404f777256163ea3eadb273dada5dcb037993c0"
+		},
+		{
+			"ImportPath": "github.com/gogits/go-gogs-client",
+			"Rev": "92e76d616a0fb851b7c8d35b673c1ebc624479b5"
+		},
+		{
+			"ImportPath": "github.com/lib/pq",
+			"Comment": "go1.0-cutoff-58-g0dad96c",
+			"Rev": "0dad96c0b94f8dee039aa40467f767467392a0af"
+		},
+		{
+			"ImportPath": "github.com/macaron-contrib/binding",
+			"Rev": "de6ed786683ec1afb9a9db503f51aa7caeba99f0"
+		},
+		{
+			"ImportPath": "github.com/macaron-contrib/cache",
+			"Rev": "594c1cfa146036b7204a70aef0fe084cb2c27e86"
+		},
+		{
+			"ImportPath": "github.com/macaron-contrib/captcha",
+			"Rev": "9a0a0b14680c8c22fe169f67d924b7e97e3d89e3"
+		},
+		{
+			"ImportPath": "github.com/macaron-contrib/csrf",
+			"Rev": "98ddf5a710090c506ad8983ef28924289d6d417e"
+		},
+		{
+			"ImportPath": "github.com/macaron-contrib/i18n",
+			"Rev": "da2b19e90bb9112f0b09876ad106ed73df5cda54"
+		},
+		{
+			"ImportPath": "github.com/macaron-contrib/oauth2",
+			"Rev": "8f394c36296733d6a5f776a7a9154c7f9d1b62f1"
+		},
+		{
+			"ImportPath": "github.com/macaron-contrib/session",
+			"Rev": "e48134e803fa0694f7838508027386b941ede3fa"
+		},
+		{
+			"ImportPath": "github.com/macaron-contrib/toolbox",
+			"Rev": "acbfe36e16c17e0a227948c76749ca81a4ebf262"
+		},
+		{
+			"ImportPath": "github.com/mcuadros/go-version",
+			"Rev": "d52711f8d6bea8dc01efafdb68ad95a4e2606630"
+		},
+		{
+			"ImportPath": "github.com/microcosm-cc/bluemonday",
+			"Rev": "2b7763a06cb6d740966c9a8e6a001eee9679be0e"
+		},
+		{
+			"ImportPath": "github.com/mssola/user_agent",
+			"Comment": "v0.4.1-3-gf659b98",
+			"Rev": "f659b9863849e0350d7f3e9c8070121163c54acd"
+		},
+		{
+			"ImportPath": "github.com/nfnt/resize",
+			"Rev": "dc93e1b98c579d90ee2fa15c1fd6dac34f6e7899"
+		},
+		{
+			"ImportPath": "github.com/russross/blackfriday",
+			"Comment": "v1.2-80-g8cec3a8",
+			"Rev": "8cec3a854e68dba10faabbe31c089abf4a3e57a6"
+		},
+		{
+			"ImportPath": "github.com/shurcooL/sanitized_anchor_name",
+			"Rev": "11a20b799bf22a02808c862eb6ca09f7fb38f84a"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html",
+			"Rev": "446d52dd4018303a13b36097e26d0888aca5d6ef"
+		},
+		{
+			"ImportPath": "golang.org/x/text/encoding",
+			"Rev": "723492b65e225eafcba054e76ba18bb9c5ac1ea2"
+		},
+		{
+			"ImportPath": "golang.org/x/text/transform",
+			"Rev": "723492b65e225eafcba054e76ba18bb9c5ac1ea2"
+		},
+		{
+			"ImportPath": "gopkg.in/ini.v1",
+			"Comment": "v0-16-g1772191",
+			"Rev": "177219109c97e7920c933e21c9b25f874357b237"
+		}
+	]
+}
